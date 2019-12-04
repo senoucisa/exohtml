@@ -1,0 +1,49 @@
+/*feuille de style pour mon premier formulaire HTML*/
+
+body {
+    background-color: khaki;
+}
+
+/* ici les styles pour les formulaires */
+
+fieldset{
+    border:1px solid orange;
+}
+legend{
+    background-color:gray;
+}
+fieldset{
+    border: 1px solid orange;
+}
+label{
+    background-color: orange;
+}
+fieldset{
+    border: 2px solid indianred;
+}
+h1{
+    background-color: khaki;
+}
+body{
+    background-color: wheat;
+}
+
+input{
+    background-color:white;
+}
+label{
+    background-color: white;
+}
+p{
+    background-color: whitesmoke;
+}
+
+input{
+    background-color:wheat;
+}
+.photo{
+    background-color: yellowgreen;
+}
+textarea{
+    background-color: whitesmoke;
+}    
