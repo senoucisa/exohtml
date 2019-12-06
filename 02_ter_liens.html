@@ -51,10 +51,10 @@
         <h2 id="haut">Les ancres :des liens à l'interieur de la<mark> même page</mark> du site par exemple</h2>
         <a href="#bas">pour aller en bas</a>
         <p>Les ancres sont utiles sur les sites intégrant beaucoup de contenus</p>
-        <p><a href="#">lien lien interieur vers une autre pagedu site</a></p>
-        <p><a href="#">lien ouvrant un nouvel onglet</a></p>
-        <p><a href="#">lien vres un autre site web</a></p>
-        <p><a href="#">lien lien téléchargement d'un fichier .pdf</a></p>
+        <p><a href="#interieur">lien lien interieur vers une autre pagedu site</a></p>
+        <p><a href="#onglet">lien ouvrant un nouvel onglet</a></p>
+        <p><a href="#autresite">lien vres un autre site web</a></p>
+        <p><a href="#telecharger">lien lien téléchargement d'un fichier .pdf</a></p>
         <p><a href="#">lien sur une image</a></p>
         <p><a href="#">lien permettant d'imprimer la page en cours</a></p>
 
@@ -64,6 +64,38 @@
         <a href="#">cliquez ici pour aller sur une autre page du site</a>
         <p class="pourlecode"><code>&lt;a href ="#"></code>cliquez ici pour allez sur une autre page du site&lt;/a></p>
         <p><a href="#haut">haut</a></p>
+
+        <hr>
+        <h2 id="onglet"> lien ouvrant d'un nouvel onglet</h2>
+        <p> Sans fermer l'onglet du site consulté,onva visiter un autre site en ouvrant un nouvel onglet</p>
+        <a href="00_structure.html" target="_blank">la premiere page HTML que j'ai faite</a>
+        <p class="pourlecode"><code>&lt;<a href="00_structure.html" target="_blank"></a></code> la première page HTML que j'ai faite<code>&lt;/a></code></p>
+        <p><a href="#haut">haut</a></p>
+        <hr>
+
+        <h2 id="autresite">lien vers un autre site web</h2>
+        <p>l'attribut<em>href</em> permet de définir la destination du lien et l'attribut <em>title</em>affiche une info-bulle au survol de la souris</p>
+        <a href="https://www.lemonde.fr/" target="_blank" title="Le Monde"> Le journal le Monde</a>
+        <p class="pourlecode">
+            <code>&lt;a href="https://www.lemonde.fr/" target="_blank" title="le monde"></code> Le journal le Monde <code>&lt;/a></code>
+        </p>
+
+        <p><a href="#haut">haut</a></p>
+        <hr>
+    
+        <h2 id="telecharger">Lien de téléchargement d'un fichier .pdf</h2>
+        <p>Ce lien permet de proposer le téléchargement d'un fichier (attention à l'arborescence des répertoires si votre fichier n'est pas dans le même répertoire que le fichier index.html)</p>
+         <a href="docs/planning.pdf">Télécharger le fichier</a>
+         <p class="pourlecode"><code>&lt;a href="document.doc"></code>Télécharger le fichier<code>&lt;/a></code></p>
+            
+            
+            <p><a href="#haut">Haut</a></p>
+            <hr> 
+
+
+
+
+
  <br>
  <br>
  <br>
