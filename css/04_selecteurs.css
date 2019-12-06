@@ -1,0 +1,25 @@
+/* feuille de style pour page sélecteur */
+body {
+    background-color: paleturquoise;
+    color: orangered;
+}
+/* des classes pour la page */
+
+.zone1 {
+    background-color: peru;
+    height: 50px;
+
+}
+.zone2 {
+    background-color: powderblue;
+    /* hauteur du bloc */
+    height: 70px;
+}
+
+/* des styles pour les ID  */
+
+#zone3{
+    background-color: royalblue;
+    color: whitesmoke;
+
+}
