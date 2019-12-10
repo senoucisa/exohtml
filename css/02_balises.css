@@ -2,6 +2,7 @@
 /* Les éléments de la pages stylés ci-dessus : éléments= balises*/
 
 body{
+    background: palevioletred;
     background-color: lightcyan;
     color:#000;
     border:6px solid blueviolet;

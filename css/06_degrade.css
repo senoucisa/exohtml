@@ -2,12 +2,22 @@
 body {
     background-color: lightcyan;
 }
-.rectangle {
-    border: 1px solid red;
+.carre {
+    /* une couleur en dégradé pour la class .rectangle,un dégradé qui démarre avec la 1er couleur et finitavec la 2nde couleur,par défaut,de haut en bas */
+    background:linear-gradient(to right,#40a497,#6840af);
     /* largeur */
     width: 45em;
     /* hauteur */
     height: 45em;
-    /* pas de marge(valeur0) en haut et en bas et la valeur auto laisse le navigateur center l'élément */
+    /* pas de marge(valeur0) en haut et en bas et la valeur auto laisse le navigateur centrer l'élément */
     margin: 0 auto;
+}
+.cercle {
+    background: linear-gradient(to left, #40a497, #6840a4);
+    width: 45em;
+    height: 45em;
+    margin: 0 auto;
+    /* la propriété border-radius permet d'arrondir plus ou moins les angles */
+    border-radius:50%;
+
 }
