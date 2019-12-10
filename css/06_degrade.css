@@ -1,0 +1,13 @@
+/* feuille de style pour la page avec les dégradés */
+body {
+    background-color: lightcyan;
+}
+.rectangle {
+    border: 1px solid red;
+    /* largeur */
+    width: 45em;
+    /* hauteur */
+    height: 45em;
+    /* pas de marge(valeur0) en haut et en bas et la valeur auto laisse le navigateur center l'élément */
+    margin: 0 auto;
+}
