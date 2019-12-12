@@ -1,0 +1,35 @@
+/* feuille de style pour le premier zoning*/
+
+body {
+    width: 80%;
+    background-color: grey;
+    border: 1px solid white;
+    /* margin auto veut dire centrer body */
+    margin: 10px auto;
+}
+#contenu {
+    background-color: pink;
+    border:  2px solid red;
+
+}
+
+header, footer {
+    height: 120px;
+    border: 1px solid olive;
+    background-color:  lightskyblue;
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav {
+    height: 60px;
+    background-color: lightsalmon;
+    padding-left: 40px;
+}
+section {
+    border: 20px solid lightgrey;
+    height: 400px;
+    text-align: center;
+    
+}
+

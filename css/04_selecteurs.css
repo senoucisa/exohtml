@@ -1,25 +1,75 @@
-/* feuille de style pour page sélecteur */
+    /* feuille de style pour page sélecteur */
 body {
-    background-color: paleturquoise;
-    color: orangered;
+    background-color: papayawhip;
+    /* taille de la police ou de la typo ou de la font(et pas de l'ecriture */
+    font-size: 18px;
 }
-/* des classes pour la page */
-
+    /* des propriétée pour la section et pour les différents paragraphe de la section */
+    /* des classes pour la page */
+section {
+    background-color:  lightgray;
+    width: 50%;
+    padding: 5px; 
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
+section p {
+    /* tous les p à l'interieur de la balise SECTION ont une couleur */
+    color: olive;
+}
+section p:first-child {
+     /* le premier p de chaque section sera darkblue et en gras;premier enfant d'un élément */
+    color: darkblue;
+    font-weight:  bolder;
+}
+section p:last-child {
+    /* le dernier p de chaque section aura un fond orange;dernier enfant d'un élément */
+    background-color: orange;
+}
+section p:nth-child(3) {
+    /* le 3éme p de chaque section sera en majuscule;le énième d'un élément */
+    text-transform: uppercase;
+}
+section p:nth-child(even) {
+    /* tous les P pair */
+    background-color: white;
+}
+section p:nth-child(odd) {
+    /* tous les P impair */
+    background-color: turquoise;
+}
+section p:nth-child(5),section p:nth-child(9) {
+    /* le 5éme et le 9éme P de chaque section auront la 1er lettre du mot en majuscule; le énième d'un élément */
+    text-transform:capitalize;
+    height: 50px;
+}
+  
+.zone1, .zone2{
+  
+    /* height hauteur du container */
+    height: 100px;
+}
 .zone1 {
     background-color: peru;
-    height: 50px;
-
 }
 .zone2 {
     background-color: powderblue;
     /* hauteur du bloc */
-    height: 70px;
+    /* height: 70px; */
 }
-
-/* des styles pour les ID  */
-
+    /* des styles pour les ID  */
 #zone3{
+    /* ID avant son nom je mets # */
     background-color: royalblue;
     color: whitesmoke;
-
 }
+#zone3:before {
+    /* on rajoute du contenu (content) avant l'ID zone 3 */
+    content: "rajouté avant la zone 3";
+}
+#zone3:after {
+    /* on rajoute du contenu (content) après l'ID zone 3 */
+    content: "rajouté aprés la zone 3";
+}
+
+

@@ -1,0 +1,25 @@
+    /* feuille de style pour la page des float  */
+body {
+    background-color:plum;
+}
+.boite {
+    /* on utise cette balise pour mettre une image dans une boite */
+    background: url(../img/siamois.jpg);
+    /* avec cette balise l'image ne se répète pas */
+    background-repeat: no-repeat;
+    /* utilisés ses balises pour donner une hauteur et une largeur a notre image */
+    width: 260px;
+    height: 194px;
+    /* la border cest pour bien voir la bordure de la boite */
+    border: 1px solid white;
+    /* float cest pour dire à l'image va à gauche:permet de placer des balises côte à côte alors que selon le flux du web standard les éléments se placent les uns au dessus des autres */
+    float:left;
+}
+.clear {
+    /* clear cest pour faire revenir l'image à la ligne (clear reprend le flux normal)il supprime l'effet flottant */
+    clear: both;
+}
+    /* une pseudo class( hover veut dire dessus) */
+    a:hover {
+        background-color: orange;
+        color: white;
