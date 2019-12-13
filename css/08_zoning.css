@@ -7,10 +7,10 @@ body {
     /* margin auto veut dire centrer body */
     margin: 10px auto;
 }
+
 #contenu {
     background-color: pink;
     border:  2px solid red;
-
 }
 
 header, footer {
@@ -20,16 +20,58 @@ header, footer {
     text-align: center;
     padding-top: 10px;
 }
+/* les styles pour la navigation dans l'élément nav */
 
 nav {
     height: 60px;
     background-color: lightsalmon;
     padding-left: 40px;
+    /* padding-top:5px */
 }
+
+nav ul {
+    /* pour être certain de ne pas avoir de puces dans cette ul */
+    list-style-type:none ;
+    /* background-color: lightskyblue; */
+}
+/* pour pointer les li qui sont dans la nav */
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: white;
+    background-color:  red;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+}
+
+/* le lien pas encore visité */
+nav li a:link {
+    color: olivedrab;
+
+}
+/* le lien au survol de la souris */
+nav li a:hover {
+    color: orange;
+    background-color: white;
+}
+
+/* nav li a:visited activé la nav li a:active ne fonstionne plus  */ 
+/* le lien au clis de la souris */
+nav li a:active {
+    background-color: royalblue;
+}
+
+nav li a:visited {
+    background-color: orchid;
+}
+
+
 section {
     border: 20px solid lightgrey;
     height: 400px;
-    text-align: center;
-    
+    text-align: center;   
 }
 
