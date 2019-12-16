@@ -11,9 +11,17 @@ body {
     width: 260px;
     height: 194px;
     /* la border cest pour bien voir la bordure de la boite */
-    border: 1px solid white;
+    border: 25px solid white;
     /* float cest pour dire à l'image va à gauche:permet de placer des balises côte à côte alors que selon le flux du web standard les éléments se placent les uns au dessus des autres */
     float:left;
+    /* transition sert à controler la durer de l'effet de la bordure */
+    transition: margin 2s
+    
+}
+.boite:hover {
+    border: 5px solid orange;
+
+
 }
 .clear {
     /* clear cest pour faire revenir l'image à la ligne (clear reprend le flux normal)il supprime l'effet flottant */

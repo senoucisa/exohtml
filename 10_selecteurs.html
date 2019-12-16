@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aide mémoire sur les sélecteurs css</title>
+    <link rel="stylesheet" href="css/10_selecteurs.css">
 </head>
 <body>
     <nav>
@@ -19,12 +20,75 @@
     <h2>Les sélecteurs css</h2>
         <ul>
             <li><mark>*</mark> : sélectionne TOUS les élémentsd de la page HTML - </li>
-            <li><mark>. ma-jolie-class</mark> : séléctionne tous les éléments ayant le nom de class de class "ma jolie class" </li>
-            <li><mark>#mon-unique-id</mark>: sélectionne tous les éléments ayant le nom d'ID "mon-unique-id</li>
+            <li><mark>.ma-jolie-class</mark> : séléctionne tous les éléments ayant le nom de class de class "ma jolie class" </li>
+            <li><mark>#mon-unique-id</mark> : sélectionne tous les éléments ayant le nom d'ID "mon-unique-id</li>
             <li><mark>div,aside,article</mark> :sélectionne toutes les balises &lt;div>,&lt;aside>et &lt;article></li>
-            <li><mark>nav a</mark></li>
-            <li><mark>nav a:hover</mark></li>
+            <li><mark>nav a</mark> :sélectionne les liens &lt;a> imbriqués dans la balise &lt;nav></li> 
+            <li><mark>nav a:hover</mark> :sélectionne tous les liens de la nav et active une animation au survol de la souris </li>
         </ul>
+
+        
+
+    <h2>Propriétés css utilisés dans cette page</h2>
+    <h4>Décrivez leur usage et leurs valeurs possibles</h4>
+    
+    <ol> 
+         <li>
+           
+             Propriétés pour le texte
+             <ul>
+            
+                <li> Font-family:Famille de typo dans un ordre de priorité</li>>
+                <li>Font-size:Définir la taille des caractères de la typo du texte</li>
+                <li>Text-align:Alignement du texte ,à gauche à droite ou au centre </li>
+                <li> line-height:Interlignage,espace entre les lignes.</li>
+                <li>Text-decoration:Pour "décorer" le texte en ajoutant une ligne en dessous</li>
+                <li> Color:couleur de la tipo,de la font ou du texte</li>
+             </ul>
+        </li>
+        <li>
+            
+            Propriétés pour éléments
+            <ul>
+            
+                <li> Background:arriére plan d'un élément</li>
+                <li> Height:La Hauteur de l'élément</li>
+                <li> Width:Permet de définir la largeur de l'élément:tous les deux         par rapport à la taille de la fenêtre si on indique une             valeur 
+                         proportionnelle en % ou en em</li>
+                <li>Left:Position a partir de la gauche de la fenêtre</li>
+                <li> Margin:Marge extérieur d'un élément</li>
+                <li> Padding:Marge intérieur d'un élément.</li>
+                <li> Float:permet de sortir un élément du flux ,effet flottant</li>
+                <li>Position:Position de lélément dans la page </li>
+                <li>Top:Position par rapport au haut de la fenêtre </li>
+                <li> Temps de transition lors d'une animation.</li>
+            </ul>
+
+        </li>
+       <h4> Recherchez les propriétés ci-dessous, faites des tests avec ces propriétes sur cette page et depuis la console de débuggage testez les valeurs qu'elles peuvent prendre</h4>
+
+            <ul>
+
+                <li>font-weight :Type de typo</li>
+                <li>letter-spacing :Espace entre les lettres</li>
+                <li> word-spacing:Sert a faire une bordure</li>
+                <li> text-shadow :Elle rajoute des ombres au texte</li>
+                <li>background-image :Il sert a gerer les arrières plan d'un élément</li>
+                <li> background-size :Permet de modifier la taille de l'image d'arrière plan</li>
+                <li>opacity :Permet de spécifier la quantité d'opacité</li>
+                <li>border-style :Définir les styles de lignes utilisés pour les bordures</li>
+                <li> box-shadow :Permet d'ajouter un effet d'ombre</li>
+                <li>list-style-image :Définie l'image utilisé comme puces devant les éléments d'une liste</li>
+                <li>border :l'epaisseur de la bordure</li>
+                <li>border-radius :Permet de définir les coins arrondis pour la bordure d'un éléments</li>
+                <li> border-width :La valeur de la bordure</li>
+                <li>font-variant :Specifie que le texte est en petite capitales</li>
+                <li>background-color: La couleur utilisée pour l'arrière plan</li>
+                <li><strong> !important ;</strong></li>
+            
+            </ul>
+        </li>
+    </ol>
     
 </body>
 </html>
