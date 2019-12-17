@@ -1,0 +1,24 @@
+/* feuille de style pour le dossier des exercices ebook */
+
+body {
+    background-color: skyblue;
+}
+
+/* styles pour la DD,les DT et les DD */
+/* pour bien voir les reponses aux questions */
+
+.reponse {
+    background-color: thistle;
+
+}  
+.reponse4 {
+    background-color: red;
+}
+.reponse5 {
+    background-color: sandybrown;
+}
+
+header {
+    background-color: slategrey;
+}
+    
