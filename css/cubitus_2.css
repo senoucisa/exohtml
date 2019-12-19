@@ -3,32 +3,67 @@
 /* feuille de style cubitus 2 */
 
 body {
-    background-color: tomato;
-    color: white;
-    
+    background-color: beige;
+    color: white;  
 }
-.a1, .a2, .a3, .a4, .a5 {
+
+.c1, .c2, .c3, .c4, .c5, .empty  {
+
+    border:3px solid black;
     width: 150px;
     height: 150px;
-    float: left;
-    border:10px solid goldenrod;
-    border-radius: 20%;
     text-align: center;
-    margin: 5px;
+    float: left; 
+    margin: 3px; 
 }
-.a1 {
+
+.c1 {
+    background-color: green;
+    background-color: #0C9463;  
+    border-radius: 10% 20% 30% 40%;
+}
+.c2 {
+    background-color: hotpink;
+     background-color: #9ACEFF;
+    border-radius: 40% 0% 40% 0%;
+    }
+
+.c3 {
+    background-color: indigo;
+    border-radius: 50%;
+}
+.c4 {
+    background-color: lightcoral;
+    border-radius: 20% 40% 20% 40%;
+}
+.c5 {
+    background-color: lightslategray;
+    border-radius: 20% 40% 20% 40%;
+}
+.empty {
+    opacity: 0;
+}
+.clear {
+    clear: both;
+}
+
+
+
+    
+/* 
+.c1 {
     background-color: green;
     border-radius: 10%;
      border-bottom-left-radius:40% ;
      border-bottom-right-radius: 30%;
      border-top-right-radius: 20%;
 }
-.a2{
+.c2{
     background-color: red;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
 }
-.a3{
+.c3{
     background-color: skyblue;
     width: 150px;
     height: 150px;
@@ -36,14 +71,14 @@ body {
     float: left;
     border: 1px solid #000000;
 }
-.a4{
+.c4{
     background-color: springgreen;
     border-collapse: collapse;
 }
-.a5{
+.c5{
     background-color: rosybrown;
 }
-.a6 {
+.empty {
     background-color: transparent;
     opacity: 0.2;
     width: 150px;
@@ -58,7 +93,7 @@ body {
     clear: both;
 }
 
-
+ */
 
 
 
