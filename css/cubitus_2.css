@@ -1,3 +1,39 @@
+<<<<<<< HEAD
+/* feuille css pour cubitus 2 */
+
+body {
+    background-color: turquoise;
+    
+}
+
+
+.c1,.c2 {
+    /* background-color: gold; */
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    
+    float: left;
+    border: 2px solid goldenrod;
+    text-align: center;
+    border-radius: 50%
+}
+
+
+.c1 {
+    background-color:green;
+    
+}
+
+
+.c2 {
+    background-color: blue;
+}
+
+.clear {
+    clear: both;
+}
+=======
 /* feuille de style pour cubitus 2 */
 
 /* feuille de style cubitus 2 */
@@ -97,3 +133,4 @@ body {
 
 
 
+>>>>>>> ddd8611f0466968ef832b166364b5a11f05af30d
